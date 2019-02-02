@@ -1,32 +1,19 @@
-# Prerequisites
-*.d
+*~
+*#
+*.zip
+*.tar.gz
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# visual studio
 
-# Precompiled Headers
-*.gch
-*.pch
+*.VC.db
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# osx / xcode / openframeworks
 
-# Fortran module files
-*.mod
-*.smod
+.DS_Store
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+DerivedData
 
-# Executables
-*.exe
-*.out
-*.app
+obj
+**/bin/*
+!**/bin/data/
+*Debug.app
