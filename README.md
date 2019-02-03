@@ -1,6 +1,6 @@
 # 3DPrimitivesExample
 ## C++
-![alt text](https://raw.githubusercontent.com/wittenjeremy/openframeworks/Screen_Shot_2019-02-03_at_11.22.24_AM.png)
+![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Screen_Shot_2019-02-03_at_11.22.24_AM.png)
       
  
 ## Description
