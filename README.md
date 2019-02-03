@@ -1,6 +1,6 @@
 # 3DPrimitivesExample
 ## C++
-        openframeworks/Screen Shot 2019-02-03 at 11.22.24 AM.png
+![alt text](https://raw.githubusercontent.com/wittenjeremy/openframeworks/Screen Shot 2019-02-03 at 11.22.24 AM.png)
       
 
 ## Description
