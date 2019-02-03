@@ -1,13 +1,10 @@
 # openframeworks
 # 3DPrimitivesExample
 ## C++
-## Descriptions
+
+
+## Description
+This oF program shows six objects rotating, including two spheres, a box, a plane, a cone and a cylinder.
+
 ## Screenshots
-
-using namespace std;
-
-int main()
-{
-    cout << "https://www.youtube.com/watch?v=s8PfuRCIsxI";
-    return 0;
-}
+https://www.youtube.com/watch?v=s8PfuRCIsxI
