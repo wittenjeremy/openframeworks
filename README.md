@@ -1,4 +1,4 @@
 
-![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/picture.jpg)
+![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/picture.jpg)
       
 I am me
