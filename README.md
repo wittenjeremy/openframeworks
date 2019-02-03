@@ -1,4 +1,3 @@
-# openframeworks
 # 3DPrimitivesExample
 ## C++
 
