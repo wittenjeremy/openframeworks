@@ -7,10 +7,5 @@
 This oF program shows six objects rotating. It includes two spheres, a box, a plane, a cone and a cylinder.
 
 ## Screenshots
-<object width="425" height="350">
-  <param name="movie" value="http://www.youtube.com/watch?v=s8PfuRCIsxI" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://www.youtube.com/watch?v=s8PfuRCIsxI"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=s8PfuRCIsxI)
+
