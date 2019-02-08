@@ -7,5 +7,5 @@
 This oF program shows six objects rotating. It includes two spheres, a box, a plane, a cone and a cylinder.
 
 ## Screenshots
-![alt text] (https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/shapes.gif)
+![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/shapes.gif)
 
