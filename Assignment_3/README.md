@@ -12,4 +12,5 @@ My game is similar to a maze, but it will challenge the user to memorize the bas
 
 ## Screenshots
 ![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/jeremy's%20of%20program.gif)
+
 The four elements I created include a blue house, a blue sad face, a yellow balloon, and a yellow smiley face. 
