@@ -1,6 +1,6 @@
 # Project 1
 ## Narrative
-My narrative will use sound, happy faces and sad faces to demonstrate the notion that in Western music theory, major key tonality is frequently associated with happy songs and minor key tonality is frequently associated with sad songs. An example of a three-note major chord is C+E+G, while an example of a three-note minor chord is C+Eb+G. My narrative will depict faces responding to these two chords in order to illustrate this simple concept to the viewer that major=happy and minor=sad.
+My narrative will use four symbolic elements to provide a commentary on everyday life versus dreams. Dreams will be represented with the symbol of a balloon. Everyday life will be represented with the symbol of a house. Happiness and sadness will be represented with smiling and frowning faces respectively. This four elements will interact with each other in different ways in order to provide a commentary on realizing our dreams and realizing our own happiness.
 
 # Project 2
 ## Visualization
