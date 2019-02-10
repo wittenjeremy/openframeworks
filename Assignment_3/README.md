@@ -1,6 +1,6 @@
 # Project 1
 ## Narrative
-My narrative will use four symbolic elements to provide a commentary on everyday life versus dreams. Dreams will be represented with the symbol of a balloon. Everyday life will be represented with the symbol of a house. Happiness and sadness will be represented with smiling and frowning faces respectively. This four elements will interact with each other in different ways in order to provide a commentary on realizing our dreams and realizing our own happiness.
+My narrative will use four symbolic elements to provide a commentary on dreams versus everyday life and the ways in which these two things can affect our happiness and sadness. Dreams will be represented with the symbol of a balloon. Everyday life will be represented with the symbol of a house. Happiness and sadness will be represented with smiling and frowning faces respectively. This four elements will interact with each other in different ways in order to provide a commentary on realizing our dreams and realizing our own happiness.
 
 # Project 2
 ## Visualization
