@@ -16,3 +16,247 @@ My game is similar to a maze, but it will challenge the user to memorize the bas
 ![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/jeremy's%20of%20program.gif)
 
 The four elements I created include a blue house, a blue sad face, a yellow balloon, and a yellow smiley face. 
+
+# Code for Shape Drawing Project
+#include "ofApp.h"
+
+
+
+int midX, midY;
+
+//--------------------------------------------------------------
+
+void ofApp::setup(){
+
+    ofSetFrameRate(60);
+
+    midX = ofGetWidth() / 2;
+
+    midY = ofGetHeight() / 2;
+
+}
+
+
+
+bool drawFirst = true;
+
+bool drawSecond = true;
+
+bool drawThird = true;
+
+bool drawFourth = true;
+
+//--------------------------------------------------------------
+
+void ofApp::update(){
+
+    int sec = (ofGetFrameNum() / 60) % 60;
+
+    drawFirst = sec < 2;
+
+    drawSecond = sec < 4;
+
+    drawThird = sec < 6;
+
+    drawFourth = sec < 8;
+
+}
+
+
+
+// ofTime t;
+
+//--------------------------------------------------------------
+
+void ofApp::draw(){
+
+    if (drawFirst) //first draw a house
+
+    {
+
+            ofSetColor (30, 144, 255); //the exterior of the house is blue
+
+            ofDrawRectangle(10, 40, 80, 90); //this is the base of the house
+
+            ofSetColor (0); //the roof of the house is black
+
+            ofDrawTriangle (50,10,10,40,90,40); //this is the roof of the house
+
+            ofSetColor (0); //the door of the house is black
+
+            ofDrawRectangle(40,90,20,40); //this is the door of the house
+
+    }
+
+        else if (drawSecond) //then draw a glum face
+
+        {
+
+            ofSetColor (30, 144, 255); //blue is the color for glum
+
+            ofDrawCircle(150,150,100); //this is the circle for the sad face
+
+            ofSetColor (0);
+
+            ofDrawCircle(100,125,5); //this is the circle for the left eye
+
+            ofSetColor (0);
+
+            ofDrawCircle(200,125,5); //this is the circle for the right eye
+
+            ofSetColor (0);
+
+            ofDrawCurve(50, 300, 100, 200, 150, 200, 200, 300); //this is the curve for the mouth
+
+        }
+
+    else if (drawThird)//then draw a balloon
+
+    {
+
+        ofSetColor(255, 255, 153); //the balloon is yellow
+
+        ofDrawEllipse(150,130,150,200); //this is the balloon
+
+        ofDrawTriangle(150,210,125,250,175,250); //this is the knot of the balloon
+
+        ofSetColor(0); //the string for the balloon is black
+
+        ofDrawLine(150,250,200,350); //this is the string of the balloon
+
+    }
+
+    
+
+    else if(drawFourth) //then draw a smiley face
+
+    {
+
+        ofSetColor (255, 255, 153); //the smiley face is yellow
+
+        ofDrawCircle(150,150,100); //this is the shape of the face
+
+        ofSetColor (0); //the eyes and the smile are black
+
+        ofDrawCircle(100,125,5); //this is the circle for the left eye
+
+        ofDrawCircle(200,125,5); //this is the circle for the right eye
+
+        ofDrawCurve(150, 80, 100, 200, 175, 200, 150, 80); //this is the curve for the smile
+
+    }
+
+    // cout << t.getAsMilliseconds() << endl;
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::keyPressed(int key){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::keyReleased(int key){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::mouseMoved(int x, int y){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::mouseDragged(int x, int y, int button){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::mousePressed(int x, int y, int button){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::mouseReleased(int x, int y, int button){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::mouseEntered(int x, int y){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::mouseExited(int x, int y){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::windowResized(int w, int h){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::gotMessage(ofMessage msg){
+
+    
+
+}
+
+
+
+//--------------------------------------------------------------
+
+void ofApp::dragEvent(ofDragInfo dragInfo){
+
+    
+
+}
+
