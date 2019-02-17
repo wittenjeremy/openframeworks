@@ -41,18 +41,28 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 bool drawNeutral = true;
+
 bool drawHappy = true;
+
 bool drawSad = true;
+
 bool drawSurprised = true;
+
 bool drawAngry = true;
 
 
 void ofApp::update(){
+    
     int sec = (ofGetFrameNum()/60) % 60;
+    
     drawNeutral = sec < 1;
+    
     drawHappy = ( 1 < sec && sec < 4);
+    
     drawSad = (  4 < sec && sec < 7);
+    
     drawSurprised = ( 7 < sec && sec < 10);
+    
     drawAngry = ( 10 < sec && sec < 13);
     
 }
