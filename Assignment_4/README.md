@@ -9,8 +9,11 @@
 #include "ofApp.h"
 
 int midX, midY; // no movement
+
 int x, y, z;
+
 int xPos,xPosone, yPos;
+
 int sec; // 2 seconds for each emotion, 1 second reversion to netural face
 //--------------------------------------------------------------
 
@@ -18,14 +21,21 @@ void ofApp::setup(){
     ofSetFrameRate(60);
     
     midX = ofGetWidth()/2;
+    
     midY = ofGetHeight()/2;
     
     // integer
+    
     x = midX;
+    
     z = x;
+    
     y = midY;
+    
     xPos = ofGetWidth()/2;
+    
     xPosone = xPos;
+    
     yPos = ofGetHeight()/2;
 }
 
