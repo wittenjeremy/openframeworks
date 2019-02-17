@@ -1,7 +1,7 @@
-## Screenshot
+## Changing Emotions screenshot
 ![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/newemotionsgif.gif)
 
-## Crazy Eyebrows (Extra project)
+## Crazy Eyebrows screenshot (extra project)
 ![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/crazyeyebrows.gif)
 
 
