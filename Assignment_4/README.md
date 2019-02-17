@@ -3,7 +3,7 @@
 
 
 
-# Code for Shape Drawing Project
+# Code for Changing Emotions Project
 #include "ofApp.h"
 
 int midX, midY; // no movement
