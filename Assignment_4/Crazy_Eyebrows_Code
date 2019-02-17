@@ -1,0 +1,101 @@
+#include "ofApp.h"
+
+float x1 = 80;
+float x2 = 125;
+float x3 = 170;
+float x4 = 220;
+
+//--------------------------------------------------------------
+void ofApp::setup(){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::update(){
+    
+    x1 = x1 + 1;
+    x3 = x3 + 1;
+}
+
+//--------------------------------------------------------------
+void ofApp::draw(){
+    ofSetColor(255, 255, 153); //the face is yellow
+    
+    ofDrawCircle(150,150,100); //this is the shape of the face
+    
+    ofSetColor (0); //the eyes and the smile are black
+    
+    ofDrawCircle(100,125,5); //this is the circle for the left eye
+    
+    ofDrawCircle(200,125,5); //this is the circle for the right eye
+    
+    ofDrawCurve(150, 80, 100, 200, 175, 200, 150, 80); //this is the curve for the smile
+    
+    ofDrawLine(x1,100,125,100); //this is the left eyebrow
+    
+    if(x1 > (x2)) {
+        x1 = 80;
+    }
+    
+    ofDrawLine(x3,100,170,100); //this is the right eyebrow
+    
+    if(x3 > (x4)) {
+        x3 = 170;
+    }
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::keyPressed(int key){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::keyReleased(int key){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseMoved(int x, int y ){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseDragged(int x, int y, int button){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::mousePressed(int x, int y, int button){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseReleased(int x, int y, int button){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseEntered(int x, int y){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseExited(int x, int y){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::windowResized(int w, int h){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::gotMessage(ofMessage msg){
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::dragEvent(ofDragInfo dragInfo){
+    
+}
