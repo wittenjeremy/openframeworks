@@ -1,5 +1,5 @@
 ## Screenshots
-![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/CodeScreenshot1.png)
+![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/newemotionsgif.gif)
 
 
 
