@@ -3,6 +3,11 @@
 ## YouTube Link
 [![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/youtube-link.png)](https://youtu.be/I5S0qLj0v1w)
 
+## Audio attribution
+baba.wav and doh.wav were created by me.
+aha.wav taken from [jimhancock](https://freesound.org/people/jimhancock/sounds/376318)
+grr.wav taken from [crazymonke9](https://freesound.org/people/crazymonke9/sounds/418105)
+
 ## Code
 #include "ofApp.h"
 ofSoundPlayer silence;
