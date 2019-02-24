@@ -4,7 +4,7 @@
 [![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/youtube-link.png)](https://youtu.be/I5S0qLj0v1w)
 
 ## Audio attribution
-baba.wav and doh.wav were created by me.
+baba.wav, doh.wav and silence.wav were created by me.
 
 aha.wav taken from [jimhancock](https://freesound.org/people/jimhancock/sounds/376318)
 
