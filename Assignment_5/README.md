@@ -1,7 +1,7 @@
 [Online consensus](https://stackoverflow.com/questions/11804820/embed-a-youtube-video) seems to suggest that Youtube videos cannot be embedded in Github. 
 
 ## YouTube Link
-![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/youtube-link.png)
+[![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/youtube-link.png)](https://youtu.be/UwjJmtDmKNg)
 
 ## Code
 #include "ofApp.h"
