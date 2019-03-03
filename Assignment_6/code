@@ -1,1 +1,90 @@
+#include "ofApp.h"
+float xPos2 = 90;
+//--------------------------------------------------------------
+void ofApp::setup(){
 
+}
+
+//--------------------------------------------------------------
+
+void ofApp::update(){
+ xPos2 = xPos2 + 3;
+}
+
+//--------------------------------------------------------------
+void ofApp::draw(){
+    ofSetColor (0,0,255);
+    ofDrawRectangle(xPos2,180,120,100);
+    ofSetColor (245,146,108);
+    ofDrawEllipse (150,130,125,150);
+    ofSetColor (0);
+    ofDrawLine (120,110,140,130);
+    ofDrawLine (180,110,160,130);
+    ofDrawBezier (165,160,120,160,120,190,165,190);
+    ofSetColor(255,255,153);
+    ofDrawEllipse(165,85,150,60);
+    ofSetColor(248,51,60);
+    ofDrawTriangle(150,215,140,205,160,205);
+    ofDrawTriangle(150,210,135,240,165,240);
+    ofDrawTriangle(150,250,135,240,165,240);
+    ofDrawEllipse (135,135,5,10);
+    ofDrawEllipse (165,135,5,10);
+    if(xPos2 > ofGetWidth()) {
+        xPos2 = 0;
+    }
+}
+
+//--------------------------------------------------------------
+void ofApp::keyPressed(int key){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::keyReleased(int key){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseMoved(int x, int y){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseDragged(int x, int y, int button){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mousePressed(int x, int y, int button){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseReleased(int x, int y, int button){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseEntered(int x, int y){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseExited(int x, int y){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::windowResized(int w, int h){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::gotMessage(ofMessage msg){
+
+}
+
+//--------------------------------------------------------------
+void ofApp::dragEvent(ofDragInfo dragInfo){ 
+
+}
