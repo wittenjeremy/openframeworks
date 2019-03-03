@@ -1,2 +1,2 @@
 # Narrative
-First scene of narrative in src
+First scene of narrative in code file
