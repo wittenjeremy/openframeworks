@@ -7,9 +7,9 @@ ofSoundPlayer BellDrumsBassHum;
 ofSoundPlayer BellDrumsBassHumGuitar;
 ofSoundPlayer BellDrumsBassHumGuitarVoice;
 
-int temp;
 int windSpeed;
 int clouds;
+int temp;
 int rain;
 int storm;
 
@@ -22,7 +22,7 @@ BellDrumsBassHum.load ("BellDrumsBassHum.wav");
 BellDrumsBassHumGuitar.load ("BellDrumsBassHumGuitar.wav");
 BellDrumsBassHumGuitarVoice.load ("BellDrumsBassHumGuitarVoice.wav");
     
-    std::string url = "https://api.darksky.net/forecast/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/40.70,-73.92";
+    std::string url = "https://api.darksky.net/forecast/266b96ffc4e9f750bdaa19672bca01d9/40.70,-73.92";
     
     //  Parsing the JSON
     bool parsingSuccessful = json.open(url);
@@ -44,11 +44,11 @@ void ofApp::update(){
     windSpeed =json["currently"]["windSpeed"].asInt();
     std::cout << windSpeed << endl;
     
-    temp =json["currently"]["temperature"].asInt();
-    std::cout << temp << endl;
-    
     clouds =json["currently"]["cloudCover"].asInt();
     std::cout << clouds << endl;
+    
+    temp =json["currently"]["temperature"].asInt();
+    std::cout << temp << endl;
     
     rain =json["currently"]["precipIntensity"].asInt(); //inches of rain per hour
     std::cout << rain << endl;
@@ -61,8 +61,6 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     
-
-
 }
 
 //--------------------------------------------------------------
@@ -88,22 +86,22 @@ void ofApp::mouseDragged(int x, int y, int button){
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
 
-    if((temp>50 && temp <70) && (windSpeed<1) && (clouds<0.001) && (rain<0.001) && (storm>5)){
+    if((windSpeed<1) && (clouds<0.001) && (temp>50 && temp <70) && (rain<0.001) && (storm>5)){
         Bell.play();
     }
-    else if((temp>50 && temp <70) && (windSpeed>1) && (clouds<0.001) && (rain<0.001) && (storm>5)){
+    else if((windSpeed>1) && (clouds<0.001) && (temp>50 && temp <70) && (rain<0.001) && (storm>5)){
         BellDrums.play();
     }
-    else if ((temp<50 || temp>70 ) && (windSpeed>1) && (clouds<0.001) && (rain<0.001) && (storm>5)){
+    else if ((windSpeed>1) && (clouds>0.001) && (temp>50 && temp<70 ) && (rain<0.001) && (storm>5)){
         BellDrumsBass.play();
     }
-    else if ((temp<50 || temp>70 ) && (windSpeed>1) && (clouds>0.001) && (rain<0.001) && (storm>5)){
+    else if ((windSpeed>1) && (clouds>0.001) && (temp<50 || temp>70 ) && (rain<0.001) && (storm>5)){
         BellDrumsBassHum.play();
     }
-    else if ((temp<50 || temp>70 ) && (windSpeed>1) && (clouds>0.001) && (rain>0.001)&& (storm>5)){
+    else if ((windSpeed>1) && (clouds>0.001) && (temp<50 || temp>70 ) && (rain>0.001)&& (storm>5)){
         BellDrumsBassHumGuitar.play();
     }
-    else if ((temp<50 || temp>70 ) && (windSpeed>1) && (clouds>0.001) && (rain>0.001) && (storm<5)){
+    else if ((windSpeed>1) && (clouds>0.001) && (temp<50 || temp>70 ) && (rain>0.001) && (storm<5)){
         BellDrumsBassHumGuitarVoice.play();
     }
 
