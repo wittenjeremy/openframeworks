@@ -3,5 +3,6 @@ My Weather API translation is now working perfectly. I've tried it during differ
 
 
 ## Screenshots
-https://www.youtube.com/watch?v=GyJEt7Z_V7Y
+[Online consensus](https://stackoverflow.com/questions/11804820/embed-a-youtube-video) says Youtube videos cannot be embedded in Github. So my screenshot links to YouTube.
+[![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/Weatherscreenshot.png)](https://www.youtube.com/watch?v=GyJEt7Z_V7Y)
 Audio samples taken from F. Deakin and N. Franglen
