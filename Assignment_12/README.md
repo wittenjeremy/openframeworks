@@ -17,11 +17,11 @@ Wind is more than 5mph, no clouds, temperature between 50 and 70 degrees, no rai
 ### 3) A cloudy day with wind: 
 Wind is more than 5mph, clouds, temperature between 50 and 70 degrees, no rain, no storm within 5 miles
 
-### 4) A cloudy, windy day that is either hot or cold: 
+### 4) A cold or hot day with wind and clouds but no rain: 
 Wind is more than 5mph, clouds, temperature either below 50 or above 70 degrees, no rain, no storm within 5 miles
 
-### 5) A rainy, windy day that is either hot or cold: 
+### 5) A cold or hot day with clouds, wind, and rain: 
 Wind is more than 5mph, clouds, temperature either below 50 or above 70 degrees, rain, no storm within 5 miles
 
-### 6) A cold or hot day with a storm: 
+### 6) A cold or hot day with clouds, wind, rain, and a storm: 
 Wind is more than 5mph, clouds, temperature either below 50 or above 70 degrees, rain, a storm is between 0 and 5 miles away
