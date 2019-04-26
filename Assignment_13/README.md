@@ -9,7 +9,7 @@ My game is now working perfectly.
 ## Answers and Explanataions
 ### 1) Soprano Saxophone vs. Alto Saxophone: 
 Answer = Yes. The sounds are correctly matched to the pictures.
-Explanation: The soprano saxophone has a higher range than the alto saxophone. If you listen closely, you can hear that the sound for the soprano saxophone picture is higher in range than the sound in the alto picture. Thefore, the sounds are correctly matched.
+
 
 ### 2) Violin vs. Viola: 
 Answer = Yes. The sounds are correctly matched to the pictures.
