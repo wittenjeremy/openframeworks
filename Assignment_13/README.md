@@ -5,7 +5,6 @@ My game is now working perfectly.
 ## Screenshots
 [Online consensus](https://stackoverflow.com/questions/11804820/embed-a-youtube-video) says Youtube videos cannot be embedded in Github. So my screenshot links to YouTube.
 [![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/quizgame.png)](https://youtu.be/S5nhsZIGzTY)
-Audio samples taken from F. Deakin and N. Franglen
 
 ## Answers and Explanataions
 ### 1) Soprano Saxophone vs. Alto Saxophone: 
