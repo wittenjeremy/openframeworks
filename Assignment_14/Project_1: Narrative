@@ -1,1 +1,4 @@
-h
+## Changes Made
+My game is now complete with new audio spoken by Trump. The narrative now contains symbolism whereby the right wall represents Europe, the bottom wall represents Mexico, the left wall represents China and the top wall represents Canada. When Trump hits any of these walls, a corresponding quotation is played. The code now allows all four walls to move instead of just one. Additionally, I have included new audio files which adds to the plot/narrativity of the project. I would say my narrative is 90% complete.
+
+![alttext](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/bouncingtrump.gif)
