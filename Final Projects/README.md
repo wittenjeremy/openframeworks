@@ -38,7 +38,7 @@ Audio samples taken from F. Deakin and N. Franglen
 
 
 ## 3. Game
-Thankfully game is now working perfectly. 
+Thankfully the game is now working perfectly. I tried making some of the changes suggested in the crit, such as an orchestra as a background image but I found that it looked too busy, so I opted back to the simpler and starker black and white design.
 [![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/quizgame.png)](https://youtu.be/edsrEVmflP4)
 
 ### Answers and Explanataions
