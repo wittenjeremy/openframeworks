@@ -5,13 +5,15 @@
 [![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/trumpscreenshot.png)](https://www.youtube.com/watch?v=I3YaRhRx-1c)
 I made multiple changes to my narrative following feedback I received during the in-class crits. These changes include: (1) Adding multiple audio files that correspond to different walls, (2) Adding maps to the background to give further narrative context, (3) Adding an explosion sound to the end to give the narrative a distinct 'ending,' (4) Adjusting the speed and angles in order to improve narrative quality, and (5) Adding a sinister-sounding backing track to add to the ominous quality of the narrative. I decided to use the concept of "walls" symbolically. Of course Trump is not building walls around the entire country, but the audio clips show him discussing Canada, China, Mexico, and the European Union with antagonistic language. As Trump continues his antagonism, the box gets smaller and smaller and the audio becomes increasingly muddled and messy. Eventually the box becomes so small that it explodes and Trump is ejected from the screen. 
 
-### Attribution: Backing track is taken from instrumental karaoke version of Bjork's song "Pagan Poetry." Trump audio files taken from YouTube. Explosion sound taken from Freesound.
+### Attribution 
+Backing track is taken from instrumental karaoke version of Bjork's song "Pagan Poetry." Trump audio files taken from YouTube. Explosion sound taken from Freesound.
 
 ## Translation
 [![alt text](https://github.com/wittenjeremy/openframeworks/blob/master/Image%20files/Weatherscreenshot.png)](https://www.youtube.com/watch?v=GyJEt7Z_V7Y)
 
 
 I've tried my weather API translation during different weather scenarios and as a result, different audio files play. The YouTube video shows Bushwick when the windspeed was greater than 1 mile per hour, the temperature was 55 degrees, there was no rain, no clouds, and no storm. As a result of these conditions, the second audio file "BellDrums.wav" plays.
+
 ### Settings
 #### 1) A clear, sunny day: 
 Wind is less than 5mph, no clouds, temperature between 50 and 70 degrees, no rain, no storm within 5 miles
@@ -69,4 +71,3 @@ All sounds publicly listed on FreeSound. FreeSound usernames are listed below:
 - Wurlitzer - courtesy of EKVelika
 - Correct bell - courtesy of bwg2020
 - Incorrect buzzer - courtesy of RICHERlandTV
-
